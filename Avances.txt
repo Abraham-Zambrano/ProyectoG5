@@ -1,0 +1,1 @@
+Guia de avances del proyecto: refactorizado, codificado y corregido, falta migraciones y frontend
