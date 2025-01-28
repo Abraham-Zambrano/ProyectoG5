@@ -1,0 +1,23 @@
+<!---ZAMBRNAO VALVERDE LUIS ABRAHAM-->
+<div class="container mx-auto p-8">
+  <h1 class="text-2xl font-bold mb-4 text-gray-800">Historial de Transacciones</h1>
+
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <table class="min-w-full bg-white">
+      <thead>
+        <tr>
+          <th class="py-2 px-4 border-b">Fecha</th>
+          <th class="py-2 px-4 border-b">Tipo</th>
+          <th class="py-2 px-4 border-b">Monto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let transaccion of transacciones">
+          <td class="py-2 px-4 border-b">{{ transaccion.fecha }}</td>
+          <td class="py-2 px-4 border-b">{{ transaccion.tipo }}</td>
+          <td class="py-2 px-4 border-b">{{ transaccion.monto }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

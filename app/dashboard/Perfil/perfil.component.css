@@ -1,0 +1,118 @@
+/*ZAMBRANO LUIS*/
+/*Generado por Angular*/
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-green-400 {
+  border-color: #68d391;
+}
+
+.bg-green-100 {
+  background-color: #f0fff4;
+}
+
+.text-green-700 {
+  color: #2f855a;
+}
+
+.border-red-400 {
+  border-color: #fc8181;
+}
+
+.bg-red-100 {
+  background-color: #fff5f5;
+}
+
+.text-red-700 {
+  color: #c53030;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+button {
+  margin-left: auto;
+  display: inline-block;
+}
+
+h2 {
+  color: #2d3748;
+}
