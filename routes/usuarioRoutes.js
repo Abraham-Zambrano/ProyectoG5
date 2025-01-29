@@ -1,3 +1,0 @@
-/*
- * Autor: Zambrano Valverde Luis 
- */
