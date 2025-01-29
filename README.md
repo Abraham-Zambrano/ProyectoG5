@@ -101,8 +101,8 @@ Frontend: Interfaz de usuario construida con HTML, CSS y JavaScript.
 
 Servidor web: Encargado de servir la aplicación (por ejemplo, Apache, Nginx).
 
-Diagrama (Opcional)
-Copy
+Diagrama 
+
 +-------------------+       +-------------------+       +-------------------+
 |      Vista        | <---> |   Controlador     | <---> |      Modelo       |
 | (Interfaz de UI)  |       | (Maneja solicitudes)|       | (Lógica de datos) |
