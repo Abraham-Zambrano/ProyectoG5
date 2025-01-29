@@ -1,6 +1,0 @@
-@BW_INFRAESTRUCTURA_HostAddress = http://localhost:5143
-
-GET {{BW_INFRAESTRUCTURA_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
