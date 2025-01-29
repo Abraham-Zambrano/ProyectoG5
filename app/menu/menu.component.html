@@ -1,0 +1,26 @@
+<!--ZAMBRANO VALVERDE LUIS ABRAHAM-->
+<nav class="h-screen bg-gray-800 text-white w-60 fixed">
+  <div class="flex items-center justify-center h-16 bg-gray-900">
+    <h1 class="text-lg font-bold">BancaWeb</h1>
+  </div>
+  <ul class="mt-6">
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+    </li>
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a routerLink="/transacciones" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Transacciones</a>
+    </li>
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a routerLink="/realizar-transferencia" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Realizar Transferencia</a>
+    </li>
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a routerLink="/perfil" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Perfil</a>
+    </li>
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a routerLink="/historial-transacciones" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Historial de Transacciones</a>
+    </li>
+    <li class="px-4 py-2 hover:bg-gray-700 cursor-pointer">
+      <a (click)="logout()">Cerrar sesión</a>
+    </li>
+  </ul>
+</nav>
